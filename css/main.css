@@ -1,0 +1,183 @@
+/*****  Base Styles *****/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+
+/*****     Grid     *****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+    overflow: auto;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+    overflow: auto;
+}
+
+/*****    Header and Navigation Section Styles    *****/
+header {
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/full-background.png);
+}
+
+header h1 {
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #bbc085;
+    line-height: 44px;
+}
+
+ /******    Navigation Menu Area *****/
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding-left: 38px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #828282;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+header h2 {
+    color: #9b9b9b;
+    font-size: 72px;
+    line-height: 80px;
+    width: 1000px;
+    clear: both;
+    padding: 20px 0 20px 25px;
+}
+
+/*     About section styles     *****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 49px;
+}
+
+#about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7f7f7f;
+    font-size: 21px;
+    padding-left: 49px;
+    padding-right: 50px;
+    line-height: 40px;
+}
+
+/*****     Skills Section Styles     *****/
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 auto;
+    width: 180px;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #2b2b2b;
+    line-height: 40px;
+    padding: 0 50px;
+}
+
+/*****     Contact Section Styles     *****/
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #f9ceb7;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+
+#my-work {
+    text-align: center;
+}
